@@ -56,10 +56,11 @@ ul {
   position: relative;
 }
 .main-navigate__list__sub-sublist {
+    display: none;
     position: absolute;
-    right: 0;
-    bottom: 0;
+    left:100%;
+    top: -1%;
 }
-.main-navigate__item__sub-sublist {
-    display: inline-block;
+.main-navigate__item__subitem:hover > .main-navigate__list__sub-sublist {
+  display: block;
 }
