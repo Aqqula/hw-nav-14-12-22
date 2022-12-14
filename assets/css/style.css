@@ -45,9 +45,7 @@ ul {
   left: 0;
   right: 0;
 }
-.main-navigate__item:hover {
-  background-color: rgb(0, 52, 52);
-}
+
 .main-navigate__item:hover > .main-navigate__list__sublist {
   display: block;
 }
@@ -60,7 +58,11 @@ ul {
     position: absolute;
     left:100%;
     top: -1%;
+    background-color: inherit;
 }
 .main-navigate__item__subitem:hover > .main-navigate__list__sub-sublist {
   display: block;
+}
+.main-navigate__item:hover {
+  background-color: rgb(0, 52, 52);
 }
